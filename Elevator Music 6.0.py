@@ -7,7 +7,7 @@ import comtypes
 from pycaw.pycaw import AudioUtilities, IAudioEndpointVolume
 from ctypes import cast, POINTER
 
-musicFile = r"C:\Users\grady\Videos\Mmm cheese.mp3"
+musicFile = r"YOUR_MUSIC_FILE_HERE"
 
 def set_volume_to_50():
     devices = AudioUtilities.GetSpeakers()
